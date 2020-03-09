@@ -1,0 +1,14 @@
+CREATE TABLE tweet_info (
+	id VARCHAR(19) PRIMARY KEY,
+    username VARCHAR(50),
+    text TEXT,
+    retweets VARCHAR(50),
+    favorites VARCHAR(50),
+    date DATETIME,
+    geo VARCHAR(100),
+    mentions VARCHAR(50),
+    hashtags VARCHAR(50),
+    permalink VARCHAR(100),
+    sentiment TINYINT,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);
