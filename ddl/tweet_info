@@ -6,9 +6,7 @@ CREATE TABLE tweet_info (
     favorites VARCHAR(50),
     date DATETIME,
     geo VARCHAR(100),
-    mentions VARCHAR(50),
-    hashtags VARCHAR(50),
     permalink VARCHAR(100),
-    sentiment TINYINT,
+    sentiment BIT,
     timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
 );
